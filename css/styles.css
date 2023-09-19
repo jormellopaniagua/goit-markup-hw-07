@@ -46,27 +46,27 @@ header {
   display: flex;
   gap: 10px;
 }
-.link:hover .contact_icon {
+.link:hover .header__icon {
   fill: var(--webstudio-color);
 }
-.link:focus .contact_icon {
+.link:focus .header__icon {
   fill: var(--webstudio-color);
 }
-.webstudio {
+.header__title {
   color: var(--webstudio-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
 }
-.textNavigation {
+.header__Navigation {
   color: var(--text-color);
   letter-spacing: 0.02em;
 }
-.list .linkNavigation {
+.header__Navigation--actual {
   color: var(--webstudio-color, rgb(30, 123, 185));
   letter-spacing: 0.02em;
 }
-.seleccionated {
+.header--underlined {
   position: relative;
 }
 @keyframes alargar {
@@ -77,7 +77,7 @@ header {
     width: 100%;
   }
 }
-.seleccionated::after {
+.header--underlined::after {
   content: '';
   position: absolute;
   left: 0;
@@ -103,12 +103,12 @@ header {
   align-items: center;
   height: 80px;
 }
-.contact_item {
+.header__item {
   display: flex;
   gap: 8px;
   align-items: center;
 }
-.contact_icon {
+.header__icon {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
