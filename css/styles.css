@@ -114,7 +114,7 @@ header {
   fill: var(--icon-color);
   transition: var(--trans-icon);
 }
-.fondoOscuro {
+.hero {
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
@@ -124,7 +124,7 @@ header {
   background-repeat: no-repeat;
   background-size: auto;
 }
-.solutions {
+.hero__title {
   color: var(--main-color, white);
   font-size: 44px;
   font-weight: 900;
@@ -187,20 +187,20 @@ header {
   fill: var(--webstudio-color);
 }
 /* modal------------------------------------------------------------------------------- */
-.hero {
+.hero--padding {
   padding-top: 179px;
   padding-bottom: 179px;
 }
-.featureTitle {
+.feature__Title {
   font-weight: 700;
   line-height: 1.17;
 }
-.feature {
+.feature__text {
   color: var(--paragraph-color, black);
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.icon_container {
+.feature__container {
   display: flex;
   flex-wrap: wrap;
   width: 270px;
@@ -209,11 +209,11 @@ header {
   align-content: center;
   justify-content: center;
 }
-.feature_icon {
+.feature__icon {
   width: 70px;
   height: 70px;
 }
-.nosotros {
+.genericTitle {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
@@ -502,13 +502,13 @@ header {
 .photo {
   object-fit: cover;
 }
-.about_item {
+.about__item {
   display: flex;
   flex-basis: calc((100% - 2 * 25px) / 3);
   border-bottom: 1px solid rgba(238, 238, 238, 1);
   position: relative;
 }
-.about_paragraph {
+.about__text {
   display: flex;
   background-color: rgba(47, 48, 58, 0.8);
   width: 100%;
@@ -521,13 +521,13 @@ header {
   position: absolute;
   bottom: 0%;
 }
-.about_us {
+.about {
   padding-bottom: 50px;
 }
-.feature_item {
+.feature__item {
   flex-basis: calc((100% - 3 * 23px) / 4);
 }
-.feature_height {
+.feature {
   display: flex;
   align-items: center;
 }
