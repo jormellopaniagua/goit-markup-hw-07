@@ -219,19 +219,19 @@ header {
   text-align: center;
   margin-bottom: 50px;
 }
-.name {
+.worker__title {
   font-size: 16px;
 }
-.profession {
+.worker__text {
   color: var(--paragraph-color, black);
 }
-.worker_list {
+.worker__list {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
 }
-.worker_social {
+.worker__social {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -242,22 +242,22 @@ header {
   cursor: pointer;
   transition: var(--trans-bg);
 }
-.worker_icon {
+.worker__icon {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
   transition: var(--trans-icon);
 }
-.worker_social:hover {
+.worker__social:hover {
   background-color: var(--webstudio-color);
 }
-.worker_social:hover .worker_icon {
+.worker__social:hover .worker__icon {
   fill: var(--main-color);
 }
-.worker_social:focus {
+.worker__social:focus {
   background-color: var(--webstudio-color);
 }
-.worker_social:focus .worker_icon {
+.worker__social:focus .worker__icon {
   fill: var(--main-color);
 }
 .client {
@@ -476,10 +476,10 @@ header {
 .footer_icon:focus {
   background-color: var(--webstudio-color);
 }
-.footer_icon:hover .worker_icon {
+.footer_icon:hover .worker__icon {
   fill: var(--main-color);
 }
-.footer_icon:focus .worker_icon {
+.footer_icon:focus .worker__icon {
   fill: var(--main-color);
 }
 .card_set {
@@ -499,7 +499,7 @@ header {
 .equip {
   background-color: rgba(245, 244, 250, 1);
 }
-.photo {
+.worker__img {
   object-fit: cover;
 }
 .about__item {
