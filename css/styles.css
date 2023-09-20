@@ -31,10 +31,10 @@ body {
 header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
-.list .link:hover {
+.link:hover {
   color: var(--webstudio-color);
 }
-.list .link:focus {
+.link:focus {
   color: var(--webstudio-color);
 }
 .link {
@@ -352,7 +352,7 @@ header {
 /*.button--filter:focus {
   outline: none;
 }*/
-.list .proyect__Title {
+.proyect__Title {
   color: rgba(33, 33, 33, 1);
   font-size: 18px;
   font-weight: 700;
