@@ -340,50 +340,50 @@
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <form class="form" autocomplete="on" novalidate>
-              <legend class="form_title genericTitle">
+              <legend class="genericTitle--modal genericTitle">
                 Deje sus datos, nos contactaremos con usted
               </legend>
-              <label class="form_label" for="name">Nombre</label>
-              <div class="input_area">
-                <input class="input" type="text" name="Nombre" id="name" />
-                <svg class="form_icon">
+              <label class="form__label" for="name">Nombre</label>
+              <div class="form__area">
+                <input class="form__input" type="text" name="Nombre" id="name" />
+                <svg class="form__icon">
                   <use href="./icons/symbol-defs.svg#icon-persona-negra-18dp-1"></use>
                 </svg>
               </div>
-              <label class="form_label" for="phone">Telefono</label>
-              <div class="input_area">
-                <input class="input" type="tel" name="phone" id="phone" />
-                <svg class="form_icon">
+              <label class="form__label" for="phone">Telefono</label>
+              <div class="form__area">
+                <input class="form__input" type="tel" name="phone" id="phone" />
+                <svg class="form__icon">
                   <use href="./icons/symbol-defs.svg#icon-telfono-negro-18dp-1"></use>
                 </svg>
               </div>
-              <label class="form_label" for="mail">E-mail</label>
-              <div class="input_area">
-                <input class="input" type="email" name="mail" id="mail" />
-                <svg class="form_icon">
+              <label class="form__label" for="mail">E-mail</label>
+              <div class="form__area">
+                <input class="form__input" type="email" name="mail" id="mail" />
+                <svg class="form__icon">
                   <use href="./icons/symbol-defs.svg#icon-correo-electrnico-negro-18dp-1"></use>
                 </svg>
               </div>
-              <label class="form_label" for="comments">Comentarios</label>
+              <label class="form__label" for="comments">Comentarios</label>
               <textarea
-                class="form_textarea"
+                class="form__textarea"
                 name="comments"
                 id="comments"
                 cols="30"
                 rows="10"
                 placeholder="Introduzca el texto"
               ></textarea>
-              <div class="check_area">
-                <input class="check" type="checkbox" name="checkbox" id="checkbox" />
-                <label class="form_label" class="input" for="checkbox">
+              <div class="form__check-area">
+                <input class="form__check" type="checkbox" name="checkbox" id="checkbox" />
+                <label class="form__label" for="checkbox">
                   Estoy de acuerdo con el boletín informativo y acepto los Términos y
                   Condiciones</label
                 >
               </div>
-              <input class="button" type="submit" value="enviar" />
+              <input class="button button--modal" type="submit" value="enviar" />
             </form>
-            <button type="button" data-modal-close class="modal_close">
-              <svg class="close_icon">
+            <button type="button" data-modal-close class="modal__close">
+              <svg class="close__icon">
                 <use href="./icons/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
               </svg>
             </button>
@@ -459,7 +459,7 @@
                 />
               </div>
               <div class="footer_button">
-                <input class="button" type="submit" value="Suscribase" />
+                <input class="button button--foot" type="submit" value="Suscribase" />
                 <svg class="footer_button__icon">
                   <use href="./icons/symbol-defs.svg#icon-Enviar-cono"></use>
                 </svg>
