@@ -89,11 +89,11 @@ header {
   border-radius: 2px;
   animation: alargar 0.3s linear 0s 1 normal backwards;
 }
-.whiteNavigation {
+.footer__contact--white {
   color: var(--main-color, white);
   line-height: 1.71;
 }
-.grayNavigation {
+.footer__contact {
   color: rgb(255, 255, 255, 0.6);
   line-height: 1.71;
 }
@@ -395,7 +395,7 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.footer_social {
+.footer__title {
   color: var(--main-color);
   font-size: 14px;
   letter-spacing: 0.42px;
@@ -404,7 +404,6 @@ header {
 .div_form {
   display: flex;
   justify-content: right;
-
   position: relative;
 }
 .footer_form {
@@ -416,13 +415,13 @@ header {
   display: flex;
   flex-direction: column;
 }
-.suscribe:hover .footer_mail {
+.suscribe:hover .suscribe__mail {
   border-color: var(--webstudio-color);
 }
-.suscribe:focus-within .footer_mail {
+.suscribe:focus-within .suscribe__mail {
   border-color: var(--webstudio-color);
 }
-.footer_mail {
+.suscribe__mail {
   width: 358px;
   height: 50px;
   flex-shrink: 0;
@@ -448,7 +447,7 @@ header {
   padding-left: 40px;
   /* margin-top: 20px; */
 }
-.subscribe_icon {
+.footer_button__icon {
   position: absolute;
   top: 25%;
   right: 13px;
@@ -458,7 +457,7 @@ header {
   fill: var(--main-color);
   cursor: pointer;
 }
-.footer_icon {
+.footer__icon {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -470,16 +469,16 @@ header {
   cursor: pointer;
   transition: var(--trans-bg);
 }
-.footer_icon:hover {
+.footer__icon:hover {
   background-color: var(--webstudio-color);
 }
-.footer_icon:focus {
+.footer__icon:focus {
   background-color: var(--webstudio-color);
 }
-.footer_icon:hover .worker__icon {
+.footer__icon:hover .worker__icon {
   fill: var(--main-color);
 }
-.footer_icon:focus .worker__icon {
+.footer__icon:focus .worker__icon {
   fill: var(--main-color);
 }
 .card_set {
@@ -579,7 +578,7 @@ header {
   padding-bottom: 94px;
 }
 
-.footer_height {
+.hero--img_none {
   height: 64px;
   background-image: none;
 }
