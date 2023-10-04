@@ -16,7 +16,7 @@
     font-size: 16px;
   }
   .worker__text {
-    color: $paragraph-color, black;
+    color: $paragraph-color;
   }
   .worker__list {
     display: flex;
@@ -24,12 +24,7 @@
     align-items: center;
     justify-content: center;
   }
-  .worker__icon {
-    width: 20px;
-    height: 20px;
-    fill: $icon-color;
-    transition: $trans-icon;
-  }
+
   .worker__social {
     display: flex;
     flex-wrap: wrap;
@@ -40,10 +35,16 @@
     border-radius: 50%;
     cursor: pointer;
     transition: $trans-bg;
-    &:hover &:focus {
+    &:hover {
       background-color: $webstudio-color;
     }
-    &:hover .worker__icon &:focus .worker__icon {
+    &:focus {
+      background-color: $webstudio-color;
+    }
+    &:hover .worker__icon {
+      fill: $main-color;
+    }
+    &:focus .worker__icon {
       fill: $main-color;
     }
   }

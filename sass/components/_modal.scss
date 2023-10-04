@@ -37,7 +37,10 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  &:hover .close__icon &:focus-within .close__icon {
+  &:hover .close__icon {
+    fill: $webstudio-color;
+  }
+  &:focus-within .close__icon {
     fill: $webstudio-color;
   }
 }
@@ -64,10 +67,16 @@
   }
   .form__area {
     position: relative;
-    &:hover .form__input &:focus-within .form__input {
+    &:hover .form__input {
       border-color: $webstudio-color;
     }
-    &:hover .form__icon &:focus-within .form__icon {
+    &:focus-within .form__input {
+      border-color: $webstudio-color;
+    }
+    &:hover .form__icon {
+      fill: $webstudio-color;
+    }
+    &:focus-within .form__icon {
       fill: $webstudio-color;
     }
   }

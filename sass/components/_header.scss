@@ -23,11 +23,8 @@ header {
   &__Navigation {
     color: $text-color;
     letter-spacing: 0.02em;
-    &--actual {
-      color: $webstudio-color, rgb(30, 123, 185);
-      letter-spacing: 0.02em;
-    }
   }
+
   &--underlined {
     position: relative;
     &::after {
@@ -54,4 +51,8 @@ header {
     fill: $icon-color;
     transition: $trans-icon;
   }
+}
+.header__Navigation--actual {
+  color: $webstudio-color;
+  letter-spacing: 0.02em;
 }

@@ -24,10 +24,16 @@
   justify-content: center;
   cursor: pointer;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover &:focus {
+  &:hover {
     border-color: $webstudio-color;
   }
-  &:hover .client__icon &:focus .client__icon {
+  &:focus {
+    border-color: $webstudio-color;
+  }
+  &:hover .client__icon {
+    fill: $webstudio-color;
+  }
+  &:focus .client__icon {
     fill: $webstudio-color;
   }
 }

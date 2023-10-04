@@ -13,12 +13,20 @@
   display: flex;
   flex-direction: column;
   gap: 0px;
-  .footer__contact {
+  &__contact {
     color: rgb(255, 255, 255, 0.6);
     line-height: 1.71;
-    .footer__contact--white {
-      color: $main-color, white;
+    text-decoration: none;
+    transition: $trans;
+    &--white {
+      color: $main-color;
       line-height: 1.71;
+    }
+    &:hover {
+      color: $webstudio-color;
+    }
+    &:focus {
+      color: $webstudio-color;
     }
   }
 }
@@ -33,10 +41,16 @@
   border-radius: 50%;
   cursor: pointer;
   transition: $trans-bg;
-  &:hover &:focus {
+  &:hover {
     background-color: $webstudio-color;
   }
-  & :hover & :focus .worker__icon {
+  &:focus {
+    background-color: $webstudio-color;
+  }
+  & :hover .worker__icon {
+    fill: $main-color;
+  }
+  & :focus .worker__icon {
     fill: $main-color;
   }
 }
@@ -58,9 +72,12 @@
   .suscribe {
     display: flex;
     flex-direction: column;
-    & :hover & :focus-within .suscribe__mail {
-      border-color: $webstudio-color;
-    }
+  }
+  & :hover .suscribe__mail {
+    border-color: $webstudio-color;
+  }
+  & :focus-within .suscribe__mail {
+    border-color: $webstudio-color;
   }
   .suscribe__mail {
     width: 358px;
