@@ -51,6 +51,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+  padding-bottom: 94px;
   &_item {
     flex-basis: calc((100% - 2 * 30px) / 3);
     border: 1px solid rgba(238, 238, 238, 1);
